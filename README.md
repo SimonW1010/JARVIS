@@ -1,5 +1,5 @@
 # JARVIS
-A Windows desktop application personal customizable assistant that is only as smart and helpful as your imagination and skills
+A Windows desktop application customizable assistant that is only as smart and helpful as your imagination and skills
 >
 ![JARVIS_background](https://user-images.githubusercontent.com/93505099/144152693-f96c9897-da41-4a0d-8340-aeafef0e7b52.jpg)
 
