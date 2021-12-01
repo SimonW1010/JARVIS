@@ -3,18 +3,12 @@
 from chatterbot.trainers import ChatterBotCorpusTrainer
 from neuralintents import GenericAssistant
 from chatterbot import ChatBot
-from textblob import TextBlob
 import subprocess as open_app
-from threading import Thread
 import speech_recognition
-import time, traceback
 import pyttsx3 as tts
 import webbrowser
 import datetime
 import imaplib
-import mailbox
-import keyring
-import random
 import email
 import json
 import sys
