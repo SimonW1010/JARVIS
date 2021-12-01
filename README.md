@@ -49,6 +49,7 @@ Then add the new "tag" to "mappings" on line 432 of jarvis 2.1 file and attach i
 
 # Using the GUI
 Upon running the code the GUI will appear on the window there are two buttons. The upper button tell JARVIS to start listening to your microphone and the lower button tells JARVIS to check your emails if you have the check emails function enabled (see [Creating google app password](#creating-google-app-password))
+![Screenshot 2021-11-30 173704](https://user-images.githubusercontent.com/93505099/144166600-4357736a-8885-4822-972f-424c5711abbc.png)
 >NOTE: Cicking the upper button and saying a command and JARVIS responding it resets and you must push the upper button again to say another command
 
 # What can JARVIS do?
@@ -62,12 +63,17 @@ Upon running the code the GUI will appear on the window there are two buttons. T
    - Opens the windows calculator upon hearing "Open calculator"
    
 4. Open chrome page
-   - 
+   - Opens a new chrome page upon hearing "new internet tab" or "chrome"
 
+5. Exit 
+   - Closes GUI and terminates JARVIS upon hearing "Goodbye Jarvis" or "exit"
 
+6. Internet Search
+   - Searches anything upon hearing "search" e.g. "Search who is the tallest man alive?" JARVIS will open a new internet tab and opens results for "who is the tallest man alive"
 
+7. Conversation 
+   - This feature is still experimental and will put JARVIS in conversation mode after hearing "I want to talk", to leave conversation mode you must say "stop talking"
 
-
-
-
-
+8. Math
+   - JARVIS can answer most simple math problems upon hearing key words such as "what is", plus, minus etc. e.g. "What is 345 times 482?"
+>NOTE: refer to the .json file to edit phrases and JARVIS's responses
