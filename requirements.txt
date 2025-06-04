@@ -1,0 +1,4 @@
+chatterbot
+SpeechRecognition
+pyttsx3
+wxPython
