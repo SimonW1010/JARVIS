@@ -16,10 +16,6 @@ from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers import SGD
 from tensorflow.keras.models import load_model
 
-global json
-
-json_file = json.loads(open("C:\\Users\\Simon\\Desktop\\Jarvis\\intents.json").read())
-
 nltk.download('punkt', quiet=True)
 nltk.download('wordnet', quiet=True)
 
@@ -136,8 +132,9 @@ class GenericAssistant(IAssistant):
             self.model = load_model(f'{model_name}.h5')
 
     def respond(self, num):
-        
-        response = json_file["intents"][num]["responses"]
+        """Return a random response for the intent index."""
+
+        response = self.intents["intents"][num]["responses"]
 
         result = random.choice(response)
 
